@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: rgb(201, 224, 244);
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+}
+#fecha {
+  text-align: center;
+  color: rgb(200, 105, 83);
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.container {
+  width: 700px;
+  background-color: white;
+  padding: 40px;
+  margin: auto;
+}
+.ingresarsis {
+  color: rgb(29, 29, 255);
+  font-style: italic;
+  font-size: 20px;
+}
+.ingresardni {
+  text-align: center;
+  font-size: 40px;
+  padding: 30px;
+}
+input {
+  width: 100%;
+  padding: 30px;
+  outline: none;
+  font-size: 20px;
+}
+.botones {
+  display: flex;
+  margin-top: 20px;
+}
+.entrada {
+  background-color: rgb(23, 195, 23);
+  width: 100%;
+  padding: 25px 35px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.salida{
+  background-color: red;
+  width: 100%;
+  padding: 25px 35px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}

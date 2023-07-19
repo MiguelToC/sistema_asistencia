@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Nunito", sans-serif;
+      background-color: rgb(201, 224, 244);
+    }
+    h1 {
+      text-align: center;
+      padding: 20px;
+      font-size: 40px;
+    }
+    #fecha {
+      text-align: center;
+      color: rgb(9, 9, 9);
+      font-size: 40px;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+    .container {
+      max-width: 700px;
+      width: 90%;
+      background-color: white;
+      padding: 40px;
+      margin: auto;
+    }
+    .ingresarsis {
+      color: rgb(29, 29, 255);
+      font-style: italic;
+      font-size: 20px;
+    }
+    .ingresardni {
+      text-align: center;
+      font-size: 40px;
+      padding: 30px;
+    }
+    input {
+      width: 100%;
+      padding: 15px;
+      outline: none;
+      font-size: 20px;
+    }
+    .botones {
+      display: flex;
+      margin-top: 20px;
+    }
+    .entrada {
+      background-color: rgb(23, 195, 23);
+      flex-grow: 1;
+      padding: 15px;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+    }
+    .salida {
+      background-color: red;
+      flex-grow: 1;
+      padding: 15px;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    @media screen and (max-width: 500px) {
+      .container {
+        padding: 20px;
+      }
+      .ingresardni {
+        font-size: 30px;
+        padding: 20px;
+      }
+      input {
+        padding: 10px;
+      }
+      .entrada, .salida {
+        padding: 10px;
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>BIENVENIDOS, REGISTRA TU ASISTENCIA</h1>
+  <h2 id="fecha">
+    11:11:11
+  </h2>
+  <div class="container">
+    <a class="ingresarsis" href="vista/login/login.php">Ingresar al sistema</a>
+    <p class="ingresardni">Ingrese su DNI</p>
+    <form action="" method="POST">
+      <input type="number" placeholder="Ingresar su DNI" name="txtdni" id="txtdni">
+      <div class="botones">
+        <button class="entrada" type="submit" name="btnentrada" value="ok">ENTRADA</button>
+        <button class="salida" type="submit" name="btnsalida" value="ok">SALIDA</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
