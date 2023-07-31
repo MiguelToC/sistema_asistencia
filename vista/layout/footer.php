@@ -69,7 +69,7 @@
     </script>
     <script type="text/javascript" src="../public/loader/loader.js"></script>
 
-    <script>
+    <!-- <script>
         $(document).ready(function() {
 
             $('.panel').lobiPanel({
@@ -175,7 +175,7 @@
         });
     </script>
     <script src="../public/app/publico/js/app.js">
-    </script>
+    </script> -->
 
     <script src="../public/app/publico/js/lib/jquery-flex-label/jquery.flex.label.js"></script>
 

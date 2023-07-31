@@ -106,7 +106,7 @@
 <body class="with-side-menu">
     <div id="app">
 
-        <header class="site-header" style="background-color:rgb(75, 98, 252)">
+        <header class="site-header" style="background-color:rgb(63, 81, 181)">
             <div class="container-fluid" style="padding-left: 40px;">
 
                 <a href="#" class="site-logo">
