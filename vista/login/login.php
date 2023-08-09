@@ -22,11 +22,11 @@
         </div>
         <div class="login-content">
             <form method="POST" action="">
-                <img src="img/avatar.svg">
-                <h2 class="title">BIENVENIDO</h2>
+                <img src="img/logo-uni.png">
+                <h2 class="title">BIENVENIDO DOCENTE</h2>
                 <?php
                 include "../../modelo/conexion.php";
-                include "../../controlador/login.php";
+                include "../../controlador/login_profesor.php";
                 
                 ?>
                 <div class="input-div one">
@@ -59,12 +59,10 @@
                 </div>
 
 
-                <div class="text-center">
-                    <a class="font-italic isai5" href="">Olvidé mi contraseña</a>
-                </div>
+                
                 <input name="btningresar" class="btn" title="click para ingresar" type="submit"
                     value="INICIAR SESION">
-                    <a href="../../index.php" class="btn"> Marcar asistencia</a>
+                    <a href="../../marcar.php" class="btn"> Marcar asistencia</a>
             </form>
             
         </div>

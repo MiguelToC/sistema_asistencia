@@ -11,7 +11,7 @@ if (!empty($_POST["btningresar"])) {
       $_SESSION["nombre"]=$datos->nombre;
       $_SESSION["apellido"]=$datos->apellido;
       $_SESSION["id"]=$datos->id_usuario;
-      header("location:marcar.php");
+      header("location:../inicio.php");
     } else {
       echo "<div class='alert alert-danger'>El usuario no existe</div>"; 
     }
